@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
   transform: {
     '^.+\\.(t|j)sx?$': 'ts-jest', // 将 ts 文件解析器设置为 ts-jest
@@ -11,7 +11,7 @@ export default {
   //   'src/*.{js,ts}',
   //   '!.history/**/*'
   // ], // 表明测试覆盖率报表覆盖哪些文件
-  moduleNameMapper:{
-    '^@/(.*)$':'<rootDir>/src/$1'
+  moduleNameMapper: {
+    '^@/(.*)$': '<rootDir>/src/$1',
   },
-}
+};
