@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   // Eslint 会检测未声明的变量，并发出报错，可以在 globals 中进行变量声明（可以视作env的补充）
   globals: {},
   // 决定 js 运行在什么环境下，每一个环境都带有一组预定义的全局变量
