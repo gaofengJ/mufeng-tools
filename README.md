@@ -1,7 +1,9 @@
 # mufeng-tools
 常用工具方法合集
 
-### Jest单元测试的几个指标
+## 使用jsdoc生成文档
+
+## Jest单元测试的几个指标
 
 **%stmts**：语句覆盖率（statement coverage）：是不是每个语句都执行了？
 

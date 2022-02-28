@@ -1,7 +1,7 @@
 /**
  * @description 获取类型
- * @param param any
- * @returns string
+ * @param { any } param any
+ * @returns { string } string
  */
 export default function getType(param: any): string {
   // type 格式为 [object String]、[object Number]...
