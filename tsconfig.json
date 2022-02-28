@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
     "incremental": true,                      /* 增量编译 提高编译速度 */
-    "target": "ES2017",                       /* 编译之后生成的 JavaScript 文件需要遵循的标准，可选值："ES3"（默认），"ES5"，"ES6"/"ES2015"，"ES2016"，"ES2017"或"ESNext"。我们选择了 es5 为了使包具有更好的浏览器兼容性。*/
+    "target": "es5",                       /* 编译之后生成的 JavaScript 文件需要遵循的标准，可选值："ES3"（默认），"ES5"，"ES6"/"ES2015"，"ES2016"，"ES2017"或"ESNext"。我们选择了 es5 为了使包具有更好的浏览器兼容性。*/
     "module": "commonjs",                     /* 指定生成哪个模块系统代码，默认值：target === "ES3" or "ES5" ? "CommonJS" : "ES6" */
     "declaration": true,                      /* 编译时创建声明文件 */
     "outDir": "./lib",                        /* 指定输出目录。编译后的 JavaScript 代码会在与 tsconfig.json 同级的 lib 文件夹中 */
-    "lib": ["DOM", "es6"],                           /* 编译过程中需要引入的库文件列表 */
+    "lib": ["dom", "es6", "es2016"],                           /* 编译过程中需要引入的库文件列表 */
     "paths": {                                /* 别名 */
       "@/*": ["./src/*"]
     },
