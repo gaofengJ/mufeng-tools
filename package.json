@@ -15,7 +15,9 @@
     "type": "git",
     "url": "git+https://github.com/gaofengJ/mufeng-tools.git"
   },
-  "keywords": ["tools"],
+  "keywords": [
+    "tools"
+  ],
   "author": "mufeng",
   "license": "ISC",
   "bugs": {
