@@ -8,9 +8,19 @@
 
 ### 二、npm login 登录
 
+1、npm 报错： npm ERR Unexpected token in JSON at position 0 while parsing near 解决方案
+
+可能是开了代理
+
+2、使用淘宝镜像登录时使用`npm login --registry https://registry.npmjs.org`
+
 ### 三、npm publish
 
+使用淘宝镜像发布时使用`npm publish --registry https://registry.npmjs.org`
+
 ### 四、查看发布结果
+
+淘宝镜像大概十分钟更新一次
 
 ## 使用 jsdoc 生成文档
 
