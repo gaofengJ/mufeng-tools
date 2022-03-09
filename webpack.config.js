@@ -8,10 +8,9 @@ module.exports = {
   mode: 'production',
   entry: './src/index.ts',
   output: {
-    library: {
-      type: 'umd',
-      name: 'mTools',
-    },
+    library: 'mTools',
+    libraryTarget: 'umd',
+    globalObject: 'this',
     filename: 'index.js',
     path: path.resolve(__dirname, './dist'),
   },
