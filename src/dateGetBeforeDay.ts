@@ -12,7 +12,6 @@ export default function dateGetBeforeDay(
   fmt?: string,
 ): string | Date {
   if (getType(date) === 'string') {
-    if ((date as string).length === 10) (date as string).concat('000'); // 时间戳为 10 位字符串时要乘 1000，为 13 位时不需要处理
     // eslint-disable-next-line no-param-reassign
     date = new Date(date);
   }
