@@ -8,6 +8,7 @@ import stringGetRandomStr from './stringGetRandomStr';
 // array相关方法
 import arrayGetIntersect from './arrayGetIntersect';
 import arrayGetUnionSet from './arrayGetUnionSet';
+import arrayGetMinus from './arrayGetMinus';
 
 // object相关方法
 import objectToArray from './objectToArray';
@@ -26,6 +27,7 @@ export {
   // array相关方法
   arrayGetIntersect,
   arrayGetUnionSet,
+  arrayGetMinus,
   // object相关方法
   objectToArray,
   // 日期相关方法
