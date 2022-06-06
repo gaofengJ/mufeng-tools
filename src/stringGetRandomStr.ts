@@ -3,7 +3,7 @@
  * @param len 字符串长度
  * @returns string
  */
-export default function stringRandomStr(len: number = 32) {
+export default function stringGetRandomStr(len: number = 32) {
   const t = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890-_';
   const charLen = t.length;
   let str = '';

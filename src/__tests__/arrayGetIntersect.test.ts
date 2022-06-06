@@ -1,7 +1,7 @@
-import getIntersect from '../arrayGetIntersect';
+import arrayGetIntersect from '../arrayGetIntersect';
 
-test('getIntersect', () => {
-  expect(getIntersect([1, 2, 3], [2, 4, 6])).toEqual([2]);
-  expect(getIntersect([1, 2, 3, 4], [2, 4, 6])).toEqual([2, 4]);
-  expect(getIntersect(['1', '2', '3', '4'], ['2', '4', '6'])).toEqual(['2', '4']);
+test('arrayGetIntersect', () => {
+  expect(arrayGetIntersect([1, 2, 3], [2, 4, 6])).toEqual([2]);
+  expect(arrayGetIntersect([1, 2, 3, 4], [2, 4, 6])).toEqual([2, 4]);
+  expect(arrayGetIntersect(['1', '2', '3', '4'], ['2', '4', '6'])).toEqual(['2', '4']);
 });
